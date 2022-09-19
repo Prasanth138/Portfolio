@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c4a9d411.css",
+    "main.js": "/Portfolio/static/js/main.688adf9c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/DegreePic.jpg": "/Portfolio/static/media/DegreePic.50430676af4018f311a6.jpg",
+    "static/media/ONYX.png": "/Portfolio/static/media/ONYX.3b7aaf63718d2062e5ec.png",
+    "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Ecommerce.jpg": "/Portfolio/static/media/Ecommerce.efa4f32740351e5d186d.jpg",
+    "static/media/Poppins-Regular.ttf": "/Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/mail.jpeg": "/Portfolio/static/media/mail.d13d5e32cbc73884b526.jpeg",
+    "static/media/profilepicture.jpeg": "/Portfolio/static/media/profilepicture.39b2f37817bd50767430.jpeg",
+    "static/media/Quiz.jpg": "/Portfolio/static/media/Quiz.7838d613740a8c2fdea9.jpg",
+    "static/media/bg.jpg": "/Portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Portfolio/index.html",
+    "static/media/programming-skills.svg": "/Portfolio/static/media/programming-skills.d19983a9bee884277ffa4156796bcc0c.svg",
+    "static/media/projects.svg": "/Portfolio/static/media/projects.2b352a52b0588dab62f56a7d1c1e436d.svg",
+    "static/media/interests.svg": "/Portfolio/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
+    "static/media/education.svg": "/Portfolio/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
+    "static/media/work-history.svg": "/Portfolio/static/media/work-history.a566475dedb99dea4bb8b9115798b2a3.svg",
+    "main.c4a9d411.css.map": "/Portfolio/static/css/main.c4a9d411.css.map",
+    "main.688adf9c.js.map": "/Portfolio/static/js/main.688adf9c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4a9d411.css",
+    "static/js/main.688adf9c.js"
+  ]
+}
