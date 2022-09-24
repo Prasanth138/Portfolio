@@ -98,8 +98,23 @@ export default function Resume() {
               <div className="resume-heading">
                 <div className="resume-main-heading">
                   <div className="heading-bullet"></div>
+                  <span>MERN Stack Course</span>
+                  <div className="heading-date">2021-2022</div>
+                </div>
+                <div className="resume-sub-heading">
+                  <span>Technologies Used: MongoDB, ExpressJS, ReactJS, NodeJS</span>
+                </div>
+                <div className="resume-heading-description">
+                  <span>
+                    Completed Full Stack Web Developer Course in GUVI Geek Networks, IITM Research Park.
+                  </span>
+                </div>
+              </div>
+              <div className="resume-heading">
+                <div className="resume-main-heading">
+                  <div className="heading-bullet"></div>
                   <span>Personal Portfolio Website</span>
-                  <div className="heading-date">2020-2021</div>
+                  <div className="heading-date">2021-2022</div>
                 </div>
                 <div className="resume-sub-heading">
                   <span>Technologies Used: React JS, Bootsrap</span>
@@ -114,27 +129,8 @@ export default function Resume() {
               <div className="resume-heading">
                 <div className="resume-main-heading">
                   <div className="heading-bullet"></div>
-                  <span>Mobile E-shop </span>
-                  <div className="heading-date">2020-2021</div>
-                </div>
-                <div className="resume-sub-heading">
-                  <span>
-                    Technologies Used: React Native, Mongo DB, Express Js, Node
-                    Js, Redux.
-                  </span>
-                </div>
-                <div className="resume-heading-description">
-                  <span>
-                    An ecommerce application designed to sell products online
-                    wth payment system integration
-                  </span>
-                </div>
-              </div>
-              <div className="resume-heading">
-                <div className="resume-main-heading">
-                  <div className="heading-bullet"></div>
                   <span>Ecommerce Website </span>
-                  <div className="heading-date">2020-2021</div>
+                  <div className="heading-date">2021-2022</div>
                 </div>
                 <div className="resume-sub-heading">
                   <span>
@@ -184,7 +180,7 @@ export default function Resume() {
               </div>
               <div className="skill-parent">
                 <div className="heading-bullet"></div>
-                <span>Express JS</span>
+                <span>MS Office</span>
                 <div className="skill-percentage">
                   <div
                     style={{ width: "85%" }}
@@ -237,7 +233,7 @@ export default function Resume() {
               <div className="resume-heading">
                 <div className="resume-main-heading">
                   <div className="heading-bullet"></div>
-                  <span>Teaching</span>
+                  <span>Mediation</span>
                   <div></div>
                 </div>
                 <div className="resume-sub-heading">
@@ -246,8 +242,7 @@ export default function Resume() {
                 <div className="resume-heading-description">
                   <span>
                     Apart from being a tech enthusiast and a code writer, i also
-                    love to teach people what i know simply because i believe in
-                    sharing.
+                    love to relax and peace out my mind to be refreshed. Mediation is the key to explore myself.
                   </span>
                 </div>
               </div>
@@ -281,7 +276,7 @@ export default function Resume() {
                 <div className="resume-heading-description">
                   <span>
                     I like to challenge my reflexes a lot while competing in
-                    football games, pushing the rank and having interactive
+                    Badminton games, pushing the rank and having interactive
                     gaming sessions excites me the most.
                   </span>
                 </div>
@@ -346,16 +341,19 @@ export default function Resume() {
                   </div>
                 </div>
                 <div className="experience-description">
-                  <span className="resume-description-text">
+                <span className="resume-description-text">
+                    Currently working as Technical Staff in Tamilnadu Urban Habitat Development Board.
+                  </span>
+                  {/* <span className="resume-description-text">
                     Currently working as MERN stack web and mobile developer and
                     also an online instructor on udemy.
-                  </span>
+                  </span> */}
                 </div>
-                <div className="experience-description">
+                {/* <div className="experience-description">
                   <span className="resume-description-text">
                     - Developed an ecommerce website for client with the
                     dashboard for managing the products, managing reviews,
-                    users, payment etc. .
+                    users, payment etc...
                   </span>
                   <br />
                   <span className="resume-description-text">
@@ -367,8 +365,8 @@ export default function Resume() {
                     - I stretch my mental capacity to develope UI as per the
                     given designs.
                   </span>
-                  <br />
-                </div>
+                  <br /> 
+                </div>*/}
               </div>
             </div>
             </div>
