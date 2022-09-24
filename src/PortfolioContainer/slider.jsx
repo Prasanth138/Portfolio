@@ -7,6 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ONYX from "../assets/Projects/ONYX.png";
 import Quiz from "../assets/Projects/Quiz.jpg";
 import ECom from "../assets/Projects/Ecommerce.jpg";
+import HBook from "../assets/Projects/Booking.jpg";
 
 function slider() {
   const settings = {
@@ -105,7 +106,7 @@ function slider() {
                         <p className="card-text small text-center">
                         Front-end: Reactjs Back-end: Nodejs Database: MongoDB
                         </p>
-                        <a href="https://quizapp-mern.netlify.app/"  target="_blank"  className="btn btn-info" >
+                        <a href="https://quizapp-mern.netlify.app/#"  target="_blank"  className="btn btn-info" >
                           Check it out
                         </a>
                     </div>
@@ -115,13 +116,13 @@ function slider() {
               <div className="col-lg-12 Owl" style={{ width: "300px" }}>
               <div className="testi-item">
                   <div className="testi-comment">
-                      <img src={ONYX} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
+                      <img src={HBook} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
                       <div className="card-body">
-                        <h5 className="card-title fw-bold">Open Brewery API</h5>
+                        <h5 className="card-title fw-bold text-center">Hotel Booking App</h5>
                         <p className="card-text">
-                          This is my first Hackathon project. It shows th
+                        Front-end: Reactjs Back-end: Nodejs Database: MongoDB
                         </p>
-                        <a href="d"  target="_blank"  className="btn btn-info fw-bold" >
+                        <a href="https://hotel-bookingg.netlify.app/"  target="_blank"  className="btn btn-info " >
                           Check it out
                         </a>
                     </div>
