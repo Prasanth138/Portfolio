@@ -55,6 +55,7 @@ a {
   color: cornsilk;
   text-decoration: none;
 }
+
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
@@ -107,11 +108,11 @@ a {
 }
 .colz .colz-icon i {
   color: white;
-  padding: 8px;
+  padding-right: 15px;
   padding-left: 0px;
 }
 .colz .colz-icon i:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 @media screen and (max-width: 1110px) {
   .profile-picture {

@@ -51,19 +51,24 @@ function ContactMe() {
       <div className="central-form" id="ContactMe1">
         <div className="col">
           <h2 className="title">
-            <p className="styles_typicalWrapper__1_Uvh">Get In Touch 📧</p>
+            <p className="styles_typicalWrapper__1_Uvh">Get In Touch 📧</p> 
           </h2>{" "}
-          {/* <a href="g"><i className="fa fa-facebook-square"></i></a>
-          <a href="#"><i className="fa fa-google-plus-square"></i></a>
-          <a href="f"><i className="fa fa-instagram"></i></a>
-          <a href="f"><i className="fa fa-youtube-square"></i></a>
-          <a href="f"><i className="fa fa-twitter"></i></a> */}
-        </div>
-        <div className="back-form">
+          
+          <div className="col-icon">
+          <a href="https://github.com/Prasanth138" target="_blank"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/prasanth-a-41baaba2/" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a>
+          <a id="colz-resume" href="https://drive.google.com/file/d/1R3i7VjQ1_XTEqSQykMxFMlNEAv3gy8lI/view?usp=sharing" target="_blank">Resume</a>
+          </div>
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
             <img src={mail} alt="image not found" />
           </div>
+        </div>
+        <div className="back-form">
+          {/* <div className="img-back">
+            <h4>Send Your Email Here!</h4>
+            <img src={mail} alt="image not found" />
+          </div> */}
           <form ref={form} onSubmit={sendEmail} >
             <p></p>
             <label >Name</label>
@@ -72,9 +77,9 @@ function ContactMe() {
             <input type="email" name="email" required />
             <label>Message</label>
             <textarea name="message" required />
-            <div className="send-btn">
-              <button type="submit" >
-                Send<i className="fa fa-paper-plane"></i>
+            <div className="send-btn px-3">
+              <button  type="submit" >
+                Send <i className="fa fa-paper-plane"></i>
               </button>
               <div className="row">{result ? <Result/> : null}</div>
             </div>

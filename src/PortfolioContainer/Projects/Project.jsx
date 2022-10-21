@@ -23,7 +23,8 @@ function Project() {
           <span>Projects</span>
         </div>
         <div className="screen-sub-heading">
-          <span>What Can I Done to Show me</span>
+          <span><b>Credentials:- User: user@gmail.com | Password : User@123 </b></span>
+          <span> || <b>Admin : admin@gmail.com | Password : Admin@123 </b></span>
         </div>
         <div className="heading-seperator">
           <div className="seperator-line"></div>

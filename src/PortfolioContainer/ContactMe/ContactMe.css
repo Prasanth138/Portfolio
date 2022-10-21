@@ -2,7 +2,7 @@
   min-height: 100vh;
   /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
 
-  margin: 100px 0 -450px 0;
+  margin: 100px 0px 0px 0px;
 }
 
 .central-form {
@@ -12,7 +12,7 @@
   box-shadow: 0 0px 20px -2px #1f2235;
   border-radius: 12px;
   margin: 0 auto;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   background-color: #1f2235;
 }
@@ -25,11 +25,14 @@
 }
 
 .back-form {
-  max-width: 380px;
-  margin: 0 auto;
+  display: flex;
+  /* justify-content: center;  */
+  flex-direction:column;
+  width: 550px;
+  padding: 5px;
 }
 
-.back-form .img-back {
+.col .img-back {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -42,20 +45,19 @@
   opacity: 0.5;
 }
 
-.back-form .img-back img {
+.col .img-back img {
   width: 100%;
   opacity: 0.5;
 }
 
-.central-form form {
-  width: auto;
+.back-form form {
+  width: 100%;
   box-shadow: 0 0 2px 1px white;
   display: flex;
   color: #111;
   padding: 15px;
   justify-content: center;
   flex-direction: column;
-  margin-top: -52px;
   opacity: 0.9;
   background-color: white;
   box-shadow: 0 0px 20px -2px #1f2235;
@@ -128,12 +130,38 @@ button .load img {
   width: 60px;
   color: green;
 }
+.send-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.col-icon  {
+  width : 225px;
+  margin-left : 10px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .col i {
   padding: 7px;
   color: #fff;
 }
+.col  {
+  width: 550px;
+  padding: 5px;
+  color: #fff;
+  margin : 5px;
+}
 .col i:hover {
   transform: scale(1.5);
+}
+#colz-resume, #colz-resume:hover{
+  font-size: 25px;
+}
+#colz-resume:hover{
+  font-size: 25px;
+  color: #ff5823;
 }
 .scroll-container {
   position: absolute;
@@ -157,26 +185,55 @@ button .load img {
 }
 
 @media screen and (min-width: 940px) {
-  .back-form {
+  /* .back-form {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
+  } */
+  .central-form {
+    /* max-width: 1100px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
 
   .img-back {
     flex: 1;
     align-self: center;
     margin-right: 20px;
+    margin-top: 20px;
   }
 
   form {
     flex: 0.9;
   }
 }
+@media screen and (max-width: 840px) {
+  .central-form h2 {
+    font-size: 16px;
+  }
+  .central-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .back-form {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .col{
+   width  : 100%;
+  }
+
+  
+}
 @media screen and (max-width: 414px) {
   .central-form h2 {
     font-size: 16px;
   }
+  
 }

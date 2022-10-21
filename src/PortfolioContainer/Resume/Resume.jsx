@@ -13,17 +13,18 @@ export default function Resume() {
     const [isActive, setActive] = useState({
       activeObject: null,
       objects: [
-        {
-          id: 1,
-          Name: "Courses",
-          src: projects1,
-          href: "#Projects",
-        },
+        
         {
           id: 2,
-          Name: "Programming Skills",
+          Name: "Technical Skills",
           src: pskills1,
           href: "#PSkills",
+        },
+        {
+          id: 1,
+          Name: "Projects",
+          src: projects1,
+          href: "#Projects",
         },
         {
           id: 3,
@@ -94,60 +95,7 @@ export default function Resume() {
         
         <div className="resume-bullet-details">
           <div className="resume-details-carousal">
-            <div className="resume-screen-container" id="Projects">
-              <div className="resume-heading">
-                <div className="resume-main-heading">
-                  <div className="heading-bullet"></div>
-                  <span>MERN Stack Course</span>
-                  <div className="heading-date">2021-2022</div>
-                </div>
-                <div className="resume-sub-heading">
-                  <span>Technologies Used: MongoDB, ExpressJS, ReactJS, NodeJS</span>
-                </div>
-                <div className="resume-heading-description">
-                  <span>
-                    Completed Full Stack Web Developer Course in GUVI Geek Networks, IITM Research Park.
-                  </span>
-                </div>
-              </div>
-              <div className="resume-heading">
-                <div className="resume-main-heading">
-                  <div className="heading-bullet"></div>
-                  <span>Personal Portfolio Website</span>
-                  <div className="heading-date">2021-2022</div>
-                </div>
-                <div className="resume-sub-heading">
-                  <span>Technologies Used: React JS, Bootsrap</span>
-                </div>
-                <div className="resume-heading-description">
-                  <span>
-                    A Personal Portfolio website to showcase all my details and
-                    projects at one place.
-                  </span>
-                </div>
-              </div>
-              <div className="resume-heading">
-                <div className="resume-main-heading">
-                  <div className="heading-bullet"></div>
-                  <span>Ecommerce Website </span>
-                  <div className="heading-date">2021-2022</div>
-                </div>
-                <div className="resume-sub-heading">
-                  <span>
-                    Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
-                    Redux, Bootstrap.
-                  </span>
-                </div>
-                <div className="resume-heading-description">
-                  <span>
-                    Online ecommerce website for showcasing and selling products
-                    onlne with payment system integration, both Paypal and
-                    Stripe
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="resume-screen-container programming-skills-container" id="PSkills">
+          <div className="resume-screen-container programming-skills-container" id="PSkills">
               <div className="skill-parent">
                 <div className="heading-bullet"></div>
                 <span>JavaScript</span>
@@ -180,7 +128,7 @@ export default function Resume() {
               </div>
               <div className="skill-parent">
                 <div className="heading-bullet"></div>
-                <span>MS Office</span>
+                <span>GitHub</span>
                 <div className="skill-percentage">
                   <div
                     style={{ width: "85%" }}
@@ -200,10 +148,10 @@ export default function Resume() {
               </div>
               <div className="skill-parent">
                 <div className="heading-bullet"></div>
-                <span>Mongo Db</span>
+                <span>Mongo DB</span>
                 <div className="skill-percentage">
                   <div
-                    style={{ width: "70%" }}
+                    style={{ width: "83%" }}
                     className="active-percentage-bar"
                   ></div>
                 </div>
@@ -229,11 +177,80 @@ export default function Resume() {
                 </div>
               </div>
             </div>
+            <div className="resume-screen-container" id="Projects">
+              <div className="resume-heading">
+                <div className="resume-main-heading">
+                  <div className="heading-bullet"></div>
+                  <span>Hotel Booking App</span>
+                  <div className="heading-date">Jan - Feb 2022</div>
+                </div>
+                <div className="resume-sub-heading">
+                  <span>Technologies Used: Mongo DB, Express Js, React JS, Node JS,
+                    Bootstrap.</span>
+                </div>
+                <div className="resume-heading-description">
+                  <span>
+                  Hotel Booking System is online booking engine that allows guests to make secure online reservations through hotel website and helps hotels to accept bookings and collect payments online.
+                  </span>
+                </div>
+              </div>
+              <div className="resume-heading">
+                <div className="resume-main-heading">
+                  <div className="heading-bullet"></div>
+                  <span>Book Shop </span>
+                  <div className="heading-date">Mar - Apr 2022</div>
+                </div>
+                <div className="resume-sub-heading">
+                  <span>
+                    Technologies Used: Mongo DB, Express Js, React JS, Node JS,
+                    Redux, Paypal Payment.
+                  </span>
+                </div>
+                <div className="resume-heading-description">
+                  <span>
+                  Book shopping App allows users to check for various Books Instruments and can purchase them using Paypal, Debit or Credit Card. The user may browse through these products as per categories
+                  </span>
+                </div>
+              </div>
+              <div className="resume-heading">
+                <div className="resume-main-heading">
+                  <div className="heading-bullet"></div>
+                  <span>Chatify App</span>
+                  <div className="heading-date">Jun - Jul 2022</div>
+                </div>
+                <div className="resume-sub-heading">
+                  <span>Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
+                    Socket.io</span>
+                </div>
+                <div className="resume-heading-description">
+                  <span>
+                  Chatify app allows you to communicate with your buddies through chat. It enables you to send and receive messages. Chatting apps make it easier, simpler and faster to connect with everyone and it is also easy to use.
+                  </span>
+                </div>
+              </div>
+              <div className="resume-heading">
+                <div className="resume-main-heading">
+                  <div className="heading-bullet"></div>
+                  <span>Quiz App </span>
+                  <div className="heading-date">Nov - Dec 2021</div>
+                </div>
+                <div className="resume-sub-heading">
+                  <span>
+                    Technologies Used: Mongo DB, Epress Js, React Js, Node JS.
+                  </span>
+                </div>
+                <div className="resume-heading-description">
+                  <span>
+                  It provides a common platform to connect student and teacher online to take quiz. The User can create Quiz and take quiz and can asses himself/herself
+                  </span>
+                </div>
+              </div>
+            </div>
             <div className="resume-screen-container" id="Interests">
               <div className="resume-heading">
                 <div className="resume-main-heading">
                   <div className="heading-bullet"></div>
-                  <span>Mediation</span>
+                  <span>Meditation</span>
                   <div></div>
                 </div>
                 <div className="resume-sub-heading">
@@ -242,7 +259,7 @@ export default function Resume() {
                 <div className="resume-heading-description">
                   <span>
                     Apart from being a tech enthusiast and a code writer, i also
-                    love to relax and peace out my mind to be refreshed. Mediation is the key to explore myself.
+                    love to relax and peace out my mind to be refreshed. Meditation is the key to explore myself.
                   </span>
                 </div>
               </div>

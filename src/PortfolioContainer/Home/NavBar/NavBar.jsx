@@ -14,10 +14,10 @@ export default function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto text-center toggle">
                 <Nav.Link className="m-3 nav-link" href="#Home">Home</Nav.Link>
-                <Nav.Link className="m-3 nav-link" href="#AboutMe">AboutMe</Nav.Link>
-                <Nav.Link className="m-3 nav-link" href="#Resume">Resume</Nav.Link>
+                <Nav.Link className="m-3 nav-link" href="#AboutMe">About</Nav.Link>
+                <Nav.Link className="m-3 nav-link" href="#Resume">Skills</Nav.Link>
                 <Nav.Link className="m-3 nav-link" href="#Projects1">Projects</Nav.Link>
-                <Nav.Link className="m-3 nav-link" href="#ContactMe">ContactMe</Nav.Link>
+                <Nav.Link className="m-3 nav-link" href="#ContactMe">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

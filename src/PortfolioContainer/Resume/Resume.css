@@ -134,12 +134,15 @@ a, a:hover {
 .resume-heading {
   display: flex;
   flex-direction: column;
+  padding-bottom: 5px;
 }
 
 .resume-main-heading {
   position: relative;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0px;
+  
 }
 
 .resume-main-heading span {
@@ -163,10 +166,10 @@ a, a:hover {
 }
 
 .resume-sub-heading {
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Poppins SemiBold";
   color: var(--black);
-  margin: 10px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 .resume-heading-description {

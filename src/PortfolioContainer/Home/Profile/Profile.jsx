@@ -10,17 +10,17 @@ function Profile() {
                 <div className="colz">
                     <div className="colz-icon">
                     <a href="https://github.com/Prasanth138" target="_blank">
-                        <i className="fa fa-github"></i> 
+                        <i className="fa fa-github fa-2x"></i> 
                     </a>
                     <a href="https://www.linkedin.com/in/prasanth-a-41baaba2/" target="_blank">
-                        <i className="fa fa-linkedin"></i> 
+                        <i className="fa fa-linkedin fa-2x"></i> 
                     </a>
-                    <a href="https://twitter.com/Prasanth3694?s=09" target="_blank">
+                    {/* <a href="https://twitter.com/Prasanth3694?s=09" target="_blank">
                         <i className="fa fa-twitter"></i> 
                     </a>
                     <a href="https://www.instagram.com/pra_santh_anbu/" target="_blank">
                         <i className="fa fa-instagram"></i> 
-                    </a>
+                    </a> */}
                     </div>
                 </div>
                 <div className="profile-details-name">
@@ -60,9 +60,9 @@ function Profile() {
                      {""}
                      <span className="ButtonHire">Hire Me{" "}</span>
                      </button></a>
-                     <a href="Resume.pdf" id="resume" download="Prasanth.pdf">
+                     <a href="https://drive.google.com/file/d/1R3i7VjQ1_XTEqSQykMxFMlNEAv3gy8lI/view?usp=sharing" target="_blank" id="resume" >
                      <button className="btn highlighted-btn rounded-pill p-3">
-                     Get Resume
+                     Resume
                      </button>
                      </a>
                 </div>               

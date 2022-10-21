@@ -18,28 +18,16 @@
 body{
   font-family: var(--font-family)
 }
-.navbar-brand{
-  color: var(--primary-color) !important;
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    font-family : "Poppins Bold";
+    font-size : 15px;
+    width : 100%;
+    height : 50px;
+    margin-top: 15px;
+    background-color:  #1f2235;
+    color: var(--secondary-color) !important;
 }
 
-.nav-link{
-  color: var(--primary-color) !important;
-  
-}
-.nav-link:hover {
-  color: var(--secondary-color) !important;
-}
-nav {
-    height : 149px;
-    font-weight: var(--bold-font);
-}
-.toggle{
-    background-color: #25263a;
-}
-.heading{
-    font-family : "Poppins Bold";
-    font-size : 45px;
-}
-.heading:hover {
-  color: var(--secondary-color) !important;
-}

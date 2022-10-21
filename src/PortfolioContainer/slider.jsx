@@ -8,6 +8,7 @@ import ONYX from "../assets/Projects/ONYX.png";
 import Quiz from "../assets/Projects/Quiz.jpg";
 import ECom from "../assets/Projects/Ecommerce.jpg";
 import HBook from "../assets/Projects/Booking.jpg";
+import Chatify from "../assets/Projects/Chatify.jpg";
 
 function slider() {
   const settings = {
@@ -15,9 +16,9 @@ function slider() {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    // pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -55,11 +56,14 @@ function slider() {
                       <img src={HBook} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
                       <div className="card-body text-center">
                         <h6 className="card-title fw-bold text-center">Hotel Booking App</h6>
-                        <p className="card-text text-center">
-                        Front-end: Reactjs <br /> Back-end: Nodejs <br /> Database: MongoDB
-                        </p>
                         <a href="https://hotel-bookingg.netlify.app/"  target="_blank"  className="btn btn-info " >
-                          Check it out
+                          Live Site
+                        </a>
+                        <a href="https://github.com/Prasanth138/Booking-frontend"  target="_blank"  className="btn btn-info " >
+                          Frond-End
+                        </a>
+                        <a href="https://github.com/Prasanth138/Booking-backend"  target="_blank"  className="btn btn-info " >
+                          Back-End
                         </a>
                     </div>
                   </div>
@@ -71,7 +75,65 @@ function slider() {
                       <img src={ECom} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
                       <div className="card-body text-center">
                         <h6 className="card-title fw-bold text-center">Book Store</h6>
-                        <p className="card-text">
+                        <a href="https://ecomerce-mern.netlify.app"  target="_blank"  className="btn btn-info " >
+                          Live Site
+                        </a>
+                      <a href="https://github.com/Prasanth138/E-Commerce-frontend"  target="_blank"  className="btn btn-info " >
+                          Frond-End
+                        </a>
+                      <a href="https://github.com/Prasanth138/E-Commerce-backend"  target="_blank"  className="btn btn-info " >
+                          Back-End
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12 Owl" style={{ width: "300px" }}>
+              <div className="testi-item">
+                  <div className="testi-comment">
+                      <img src={Chatify} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
+                      <div className="card-body text-center">
+                        <h6 className="card-title fw-bold text-center">Chatify App</h6>
+                        <a href="https://chatiify-mern.netlify.app"  target="_blank"  className="btn btn-info " >
+                          Live Site
+                        </a>
+                        <a href="https://github.com/Prasanth138/Chatapp-frontend"  target="_blank"  className="btn btn-info " >
+                          Frond-End
+                        </a>
+                        <a href="https://github.com/Prasanth138/Chatapp-backend"  target="_blank"  className="btn btn-info " >
+                          Back-End
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12 Owl" style={{ width: "300px" }}>
+              <div className="testi-item">
+                  <div className="testi-comment">
+                      <img src={Quiz} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
+                      <div className="card-body text-center">
+                        <h6 className="card-title fw-bold text-center">Quiz App</h6>
+                        <a href="https://quizapp-mern.netlify.app/#"  target="_blank"  className="btn btn-info " >
+                          Live Site
+                        </a>
+                        <a href="https://github.com/Prasanth138/Quiz_Frontend"  target="_blank"  className="btn btn-info " >
+                          Frond-End
+                        </a>
+                        <a href="https://github.com/Prasanth138/Quiz-Backend"  target="_blank"  className="btn btn-info " >
+                          Back-End
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* <div className="col-lg-12 Owl" style={{ width: "300px" }}>
+              <div className="testi-item">
+                  <div className="testi-comment">
+                      <img src={ECom} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
+                      <div className="card-body text-center">
+                        <h6 className="card-title fw-bold text-center">Book Store</h6>
+                        <p className="card-text text-center">
                         Front-end: Reactjs <br /> Back-end: Nodejs <br /> Database: MongoDB
                         </p>
                         <a href="https://ecomerce-mern.netlify.app"  target="_blank"  className="btn btn-info " >
@@ -96,55 +158,7 @@ function slider() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-12 Owl" style={{ width: "300px" }}>
-              <div className="testi-item">
-                  <div className="testi-comment">
-                      <img src={HBook} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
-                      <div className="card-body text-center">
-                        <h6 className="card-title fw-bold text-center">Hotel Booking App</h6>
-                        <p className="card-text text-center">
-                        Front-end: Reactjs <br /> Back-end: Nodejs <br /> Database: MongoDB
-                        </p>
-                        <a href="https://hotel-bookingg.netlify.app/"  target="_blank"  className="btn btn-info " >
-                          Check it out
-                        </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12 Owl" style={{ width: "300px" }}>
-              <div className="testi-item">
-                  <div className="testi-comment">
-                      <img src={ECom} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
-                      <div className="card-body text-center">
-                        <h6 className="card-title fw-bold text-center">Book Store</h6>
-                        <p className="card-text text-center">
-                        Front-end: Reactjs <br /> Back-end: Nodejs <br /> Database: MongoDB
-                        </p>
-                        <a href="https://ecomerce-mern.netlify.app"  target="_blank"  className="btn btn-info " >
-                          Check it out
-                        </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12 Owl" style={{ width: "300px" }}>
-              <div className="testi-item">
-                  <div className="testi-comment">
-                      <img src={Quiz} style={{ height: "120px" }} className="project-pic card-img-top" alt="..." />
-                      <div className="card-body text-center">
-                        <h6 className="card-title fw-bold text-center">Quiz App</h6>
-                        <p className="card-text small text-center">
-                        Front-end: Reactjs <br /> Back-end: Nodejs <br /> Database: MongoDB
-                        </p>
-                        <a href="https://quizapp-mern.netlify.app/#"  target="_blank"  className="btn btn-info" >
-                          Check it out
-                        </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div> */}
               {/* <div className="col-lg-12 Owl" style={{ width: "300px" }}>
               <div className="testi-item">
                   <div className="testi-comment">

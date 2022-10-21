@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="about-me-parent">
         <div className="heading-container">
           <div className="screen-heading">
-            <span>About Me</span>
+            <span>About</span>
           </div>
           <div className="screen-sub-heading">
             <span>Why Choose Me?</span>
@@ -30,39 +30,39 @@ function AboutMe() {
             </span>
             <div className="about-me-highlights">
               <div className="highlight-heading">
-                <span>Here are a Few Highlights:</span>
+                <span className="about-me-descr">Here are a Few Highlights:</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>Full Stack web development</span>
+                <span className="about-me-desc">Full Stack web development</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>Interactive Front End as per the design</span>
+                <span className="about-me-desc">Interactive Front End as per the design</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>React Developer</span>
+                <span className="about-me-desc">React Developer</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>Redux for State Mnanagement</span>
+                <span className="about-me-desc">Redux for State Mnanagement</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>Building REST API</span>
+                <span className="about-me-desc">Building REST API</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>Managing database</span>
+                <span className="about-me-desc">Managing database</span>
               </div>
             </div>
-            <div className="about-me-options">
+           {/*  <div className="about-me-options">
             <a href="#ContactMe1"><button className="btn primary-btn ButtonHire"> Hire Me </button></a>
               <a href="Resume.pdf" download="Prasanth.pdf">
                 <button className="btn highlighte-btn">Get Resume</button>
-              </a>
-            </div>
+              </a> 
+            </div>*/}
           </div>
         </div>
       </div>
