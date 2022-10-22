@@ -37,8 +37,8 @@ function AboutMe() {
                 <span className="about-me-desc">Full Stack web development</span>
               </div>
               <div className="highlight">
-                <div className="highlight-blob"></div>
-                <span className="about-me-desc">Interactive Front End as per the design</span>
+                <div className="highlight-blob"></div>  
+                <span className="about-me-desc">Interactive UI as per the design</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
