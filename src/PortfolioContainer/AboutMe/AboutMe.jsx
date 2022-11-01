@@ -46,7 +46,7 @@ function AboutMe() {
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span className="about-me-desc">Redux for State Mnanagement</span>
+                <span className="about-me-desc">Redux for State Management</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
