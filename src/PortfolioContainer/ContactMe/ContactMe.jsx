@@ -57,7 +57,7 @@ function ContactMe() {
           <div className="col-icon">
           <a href="https://github.com/Prasanth138" target="_blank"><i className="fa fa-github fa-2x"></i></a>
           <a href="https://www.linkedin.com/in/prasanth-a-41baaba2/" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a>
-          <a id="colz-resume" href="https://drive.google.com/file/d/1R3i7VjQ1_XTEqSQykMxFMlNEAv3gy8lI/view?usp=sharing" target="_blank">Resume</a>
+          <a id="colz-resume" href="https://drive.google.com/file/d/1TdNAWz6A6418TdrAQDul0ysUAQwlkqYw/view?usp=share_link" target="_blank">Resume</a>
           </div>
           <div className="img-back">
             <h4>Send Your Email Here!</h4>

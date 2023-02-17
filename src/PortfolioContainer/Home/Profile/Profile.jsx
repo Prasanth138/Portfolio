@@ -60,7 +60,7 @@ function Profile() {
                      {""}
                      <span className="ButtonHire">Hire Me{" "}</span>
                      </button></a>
-                     <a href="https://drive.google.com/file/d/1R3i7VjQ1_XTEqSQykMxFMlNEAv3gy8lI/view?usp=sharing" target="_blank" id="resume" >
+                     <a href="https://drive.google.com/file/d/1TdNAWz6A6418TdrAQDul0ysUAQwlkqYw/view?usp=share_link" target="_blank" id="resume" >
                      <button className="btn highlighted-btn rounded-pill p-3">
                      Resume
                      </button>
