@@ -185,8 +185,7 @@ export default function Resume() {
                   <div className="heading-date">Jan - Feb 2022</div>
                 </div>
                 <div className="resume-sub-heading">
-                  <span>Technologies Used: Mongo DB, Express Js, React JS, Node JS,
-                    Bootstrap.</span>
+                  <span>Technologies Used: Bootstrap, React, NodeJS, Mongo DB, RazorPay.</span>
                 </div>
                 <div className="resume-heading-description">
                   <span>
@@ -202,9 +201,7 @@ export default function Resume() {
                 </div>
                 <div className="resume-sub-heading">
                   <span>
-                    Technologies Used: Mongo DB, Express Js, React JS, Node JS,
-                    Redux, Paypal Payment.
-                  </span>
+                    Technologies Used: Redux, Material UI, React, NodeJS, Mongo DB, Paypal Payment.</span>
                 </div>
                 <div className="resume-heading-description">
                   <span>
@@ -219,8 +216,7 @@ export default function Resume() {
                   <div className="heading-date">Jun - Jul 2022</div>
                 </div>
                 <div className="resume-sub-heading">
-                  <span>Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
-                    Socket.io</span>
+                  <span>Technologies Used: ChakraUI, React, NodeJS, ExpressJs, Mongo DB, Socket.io.</span>
                 </div>
                 <div className="resume-heading-description">
                   <span>
@@ -236,8 +232,7 @@ export default function Resume() {
                 </div>
                 <div className="resume-sub-heading">
                   <span>
-                    Technologies Used: Mongo DB, Epress Js, React Js, Node JS.
-                  </span>
+                    Technologies Used: Bootstrap, React, NodeJS, ExpressJs, Mongo DB.</span>
                 </div>
                 <div className="resume-heading-description">
                   <span>
